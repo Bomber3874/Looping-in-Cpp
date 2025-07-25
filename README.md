@@ -154,6 +154,75 @@ Logic:
 
     Inner loop from j = 1 to i, printing and incrementing k.
 
+# 9. Alphabet Pattern- Left alligned
+
+File: pattern_4.cpp
+
+Logic:
+
+        Initialize a variable a to character 'a' (ASCII value 97).
+
+        Read or set the number of rows n.
+
+        Loop over rows from i = 1 to i = n:
+
+            For each row i:
+
+                Loop j from 1 to i:
+
+                    Print the current character a followed by a space.
+
+                    Increment the character a to the next alphabet (e.g., 'a' to 'b').
+
+                After inner loop ends, print a newline to move to the next row.
+
+# 10. Alphabet Pattern- Right Alligned
+
+File: pattern_5.cpp
+
+Logic:
+
+        Initialize character a as 'a'.
+
+        Loop over rows i from 1 to n:
+
+            For each row i:
+
+                Loop j from n down to i:
+
+                    Print the current character a followed by a space.
+
+                    Increment a to the next alphabet.
+
+                After the inner loop ends, print a newline to move to the next row.
+
+# 11. Hourglass Pattern
+
+File: pattern_6.cpp
+
+Logic:
+
+Upper Half (including middle row):
+
+        Loop i from 0 to n-1:
+
+            Print i spaces.
+
+            Print (2 * (n - i) - 1) stars.
+
+            Move to the next line.
+
+Lower Half:
+
+        Loop i from 1 to n-1:
+
+            Print (n - i - 1) spaces.
+
+            Print (2 * (i + 1) - 1) stars.
+
+            Move to the next line.
+
+
 # Conclusion:
 
 This lab successfully demonstrated the practical use of loops in C++ through four programs. The for loop was shown to be effective when the number of iterations is predetermined, while the while loop is useful when the number of iterations depends on a condition (like password attempts or reversing a number). These examples form the foundational understanding required for more complex iterative structures in programming.
