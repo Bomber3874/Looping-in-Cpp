@@ -1,3 +1,8 @@
+/*Sanidhya Singh
+24070123140
+ENTC B2*/
+
+
 #include <iostream>
 using namespace std;
 
@@ -10,3 +15,14 @@ int main(){
     }
     return 0;
 }
+
+/*Output
+Outer: 1
+  Inner: 1
+  Inner: 2
+  Inner: 3
+Outer: 2
+  Inner: 1
+  Inner: 2
+  Inner: 3
+*/
