@@ -48,29 +48,29 @@ File: Password_checker_using_loops.cpp
 
 # Algorithm:
 
-  Set the correct password as Password123.
-
-  Initialize attempt counter to 5.
-
-  Prompt the user to enter an 11-character password.
-
-  While attempts are remaining:
-
-    Get user input.
-
-    Compare input character-by-character using a for loop.
-
-    If all characters match:
-
-      Print success message.
-
-      Exit loop.
-
-    Else:
-
-      Reduce the attempt count and notify the user.
-
-  If all attempts are used, notify the user they are out of attempts.
+      Set the correct password as Password123.
+    
+      Initialize attempt counter to 5.
+    
+      Prompt the user to enter an 11-character password.
+    
+      While attempts are remaining:
+    
+        Get user input.
+    
+        Compare input character-by-character using a for loop.
+    
+        If all characters match:
+    
+          Print success message.
+    
+          Exit loop.
+    
+        Else:
+    
+          Reduce the attempt count and notify the user.
+    
+      If all attempts are used, notify the user they are out of attempts.
 
 # 3. Printing a Message Multiple Times
 
@@ -90,19 +90,19 @@ File: Reverse_using_loops.cpp
 
 # Algorithm:
 
-  Take input number (PRN).
-  
-  Initialize a variable to store the reversed number as 0.
-
-  While the input number is greater than 0:
-
-    Extract the last digit using % 10.
-
-    Add the digit to the reversed number after shifting the previous digits (b = b * 10 + a).
-
-    Remove the last digit from the input number (prn = prn / 10).
-
-  Display the reversed number.
+      Take input number (PRN).
+      
+      Initialize a variable to store the reversed number as 0.
+    
+      While the input number is greater than 0:
+    
+        Extract the last digit using % 10.
+    
+        Add the digit to the reversed number after shifting the previous digits (b = b * 10 + a).
+    
+        Remove the last digit from the input number (prn = prn / 10).
+    
+      Display the reversed number.
 
 # Conclusion:
 
