@@ -104,6 +104,56 @@ File: Reverse_using_loops.cpp
     
       Display the reversed number.
 
+# 5. Left-Aligned Triangle of Stars
+
+File: pattern_1.cpp
+
+Objective: Print a triangle aligned to the left using *.
+
+Logic:
+
+        Outer loop runs from i = 1 to n.
+
+        Inner loop runs from j = 1 to i to print stars.
+
+# 6. Right-Aligned Triangle of Stars
+
+File: pattern_2.cpp
+
+Objective: Print a right-aligned triangle using *.
+
+Logic:
+
+        First inner loop prints spaces: k = 1 to n - i.
+
+        Second inner loop prints stars: j = 1 to i.
+
+# 7. Inverted Left-Aligned Triangle of Stars
+
+File: pattern_3.cpp
+
+Objective: Print an inverted triangle aligned to the left using *.
+
+Logic:
+
+        Outer loop runs from i = 1 to n.
+
+        Inner loop prints decreasing stars from j = n down to i.
+
+# 8. Floyd’s Triangle – Number Pattern
+
+File: floyd_series.cpp
+
+Objective: Generate Floyd’s Triangle using sequential numbers.
+
+Logic:
+
+    Initialize counter k = 1.
+
+    Outer loop from i = 1 to n.
+
+    Inner loop from j = 1 to i, printing and incrementing k.
+
 # Conclusion:
 
 This lab successfully demonstrated the practical use of loops in C++ through four programs. The for loop was shown to be effective when the number of iterations is predetermined, while the while loop is useful when the number of iterations depends on a condition (like password attempts or reversing a number). These examples form the foundational understanding required for more complex iterative structures in programming.
